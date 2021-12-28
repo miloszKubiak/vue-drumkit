@@ -94,6 +94,15 @@ export default {
   padding: 20px;
 }
 
+.title i{
+  font-size: 3rem;
+}
+
+.title i:nth-child(1),
+.title i:nth-child(3) {
+  color: mediumaquamarine;
+}
+
 .keys {
   display: flex;
   align-items:center;
